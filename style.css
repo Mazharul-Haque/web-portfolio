@@ -56,12 +56,30 @@ h5{
     box-shadow: 10px 10px 15px black;
     border-radius: 10px;
     height: 50%;
+    background-color: aliceblue;
 }
 .box-design:hover{
     cursor: pointer;
+    
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#aalo{
+    border-left: 7px solid;
+    border-image:linear-gradient(green,white) ;
+    border-image-slice: 1;
+    
+}
+#srl{
+    border-left: 10px solid;
+    border-image:linear-gradient(lightsalmon,rgb(13, 28, 95)) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
