@@ -3,6 +3,9 @@
     font-size: 50px;
     color: orange;
 }
+body{
+    margin: 0%;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -11,4 +14,25 @@
 }
 .half-width img{
     width: 75%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 600px;
+
+}
+.linked-in{
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  
+}
+.linked-in :hover{
+    cursor: pointer;
 }
